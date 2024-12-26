@@ -1,17 +1,10 @@
-function App() {
+import React from 'react'
 
-  function handleNameChange() {
-    const names = ["Earn","Grow","Give"];
-    const int = Math.floor(Math.random()*3);
-    return names(int)
-  }
+const App = () => {
   return (
-    <div>
-      Subscribe to vino
-      <p>Let's {handleNameChange()}Money</p>
-    </div>
-  );
-        
-  
-  }
-export default App;
+    <div>Hi, GOOD MORNING</div>
+  )
+}
+
+export default App
+
